@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Install the packages:
+Install packages:
 
 ```bash
 yarn
