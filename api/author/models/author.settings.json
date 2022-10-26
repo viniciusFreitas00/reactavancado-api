@@ -2,15 +2,12 @@
   "kind": "collectionType",
   "collectionName": "authors",
   "info": {
-    "name": "author",
-    "description": ""
+    "name": "author"
   },
   "options": {
     "increments": true,
-    "timestamps": true,
-    "draftAndPublish": true
+    "timestamps": true
   },
-  "pluginOptions": {},
   "attributes": {
     "photo": {
       "model": "file",
@@ -19,8 +16,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true,
-      "pluginOptions": {}
+      "required": true
     },
     "name": {
       "type": "string",
@@ -34,7 +30,7 @@
       "type": "component",
       "repeatable": true,
       "component": "page.social-links",
-      "required": true
+      "required": false
     },
     "description": {
       "type": "text",
