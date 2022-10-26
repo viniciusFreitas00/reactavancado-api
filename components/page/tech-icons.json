@@ -6,15 +6,14 @@
   },
   "options": {},
   "attributes": {
-    "Icon": {
+    "icon": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
         "images"
       ],
       "plugin": "upload",
-      "required": true,
-      "pluginOptions": {}
+      "required": true
     },
     "title": {
       "type": "string",

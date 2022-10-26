@@ -1,7 +1,7 @@
 {
   "collectionName": "components_page_section_about_projects",
   "info": {
-    "name": "sectionAboutProject ",
+    "name": "sectionAboutProject",
     "icon": "info"
   },
   "options": {},
@@ -21,8 +21,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true,
-      "pluginOptions": {}
+      "required": true
     }
   }
 }

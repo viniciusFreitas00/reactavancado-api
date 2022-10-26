@@ -15,13 +15,13 @@
       "type": "integer",
       "required": true
     },
-    "priceInstallments": {
+    "priceInstallment": {
       "type": "integer",
       "required": true
     },
     "benefits": {
       "type": "richtext",
-      "default": "Create Itens as bullet list",
+      "default": "Create items as bullet list",
       "required": true
     },
     "button": {
